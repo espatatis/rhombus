@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Rhombus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <div class="slider-menu" id="slider-menu">
+      <div class="slider-menu-close-wrapper">
+        <img
+          src="assets/close.svg"
+          alt="Close-menu"
+          class="slider-menu-close"
+          id="slider-menu-close"
+        />
+      </div>
+      <div class="slider-menu-content-wrapper">
+        <a href="#home">Home</a>
+        <a href="#aboutus">About Us</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contactus">Contact Us</a>
+      </div>
+    </div>
+
+    <nav>
+      <img src="./assets/menu.svg" alt="" class="menu-icon" id="menu-opener" />
+      <img src="./assets/logo.svg" alt="Logo" class="logo-icon" />
+      <div class="normal-nav">
+        <a href="#home">Home</a>
+        <a href="#aboutus">About Us</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contactus">Contact Us</a>
+      </div>
+    </nav>
+
+    <div class="container hero-section" id="home">
+      <img src="./assets/2751.jpg" alt="Hero Image" />
+      <div class="hero-text-container">
+        <h1>" Empowering your Child's Education. "</h1>
+        <a href="#contactus" class="button">Get Started</a>
+      </div>
+    </div>
+
+    <div class="container teach-container">
+      <p class="title">What We Teach</p>
+      <div class="card-root-container">
+        <img
+          src="./assets/arrow-right.svg"
+          class="teach-card-arrow"
+          style="transform: rotateY(180deg)"
+          id="left-arrow-carousel"
+        />
+        <div class="upper-card-wrapper" id="upper-card">
+          <div class="card-wrapper">
+            <div class="teach-card">
+              <img src="./assets/math.png" alt="" />
+              <div>
+                <h1>Mathematics</h1>
+              </div>
+            </div>
+
+            <div class="teach-card">
+              <img
+                src="https://image.flaticon.com/icons/png/128/1157/1157001.png"
+                alt=""
+              />
+              <div>
+                <h1>Science</h1>
+              </div>
+            </div>
+
+            <div class="teach-card">
+              <img src="./assets/hindi.png" alt="" />
+              <div>
+                <h1>Hindi</h1>
+              </div>
+            </div>
+
+            <div class="teach-card">
+              <img src="./assets/reading-book.png" alt="" />
+              <div>
+                <h1>Reading and Writting</h1>
+              </div>
+            </div>
+
+            <div class="teach-card">
+              <img src="./assets/spanish.png" alt="" />
+              <div>
+                <h1>Spanish</h1>
+              </div>
+            </div>
+            <div class="teach-card">
+              <img src="./assets/art.png" alt="" />
+              <div>
+                <h1>Art</h1>
+              </div>
+            </div>
+
+            <div class="teach-card">
+              <img src="./assets/books.png" alt="" />
+              <div>
+                <h1>GT</h1>
+              </div>
+            </div>
+
+            <div class="teach-card">
+              <img src="./assets/books.png" alt="" />
+              <div>
+                <h1>CBE</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow-right.svg"
+          class="teach-card-arrow"
+          id="right-arrow-carousel"
+        />
+        <!--End-->
+      </div>
+    </div>
+
+    <div class="container additional-container" id="aboutus">
+      <p class="title">About Us</p>
+      <p class="about-us-text">
+        Rhombus can help your child develop and grow in their academic pursuits
+        by taking an assessment test at student orientation. During the
+        orientation, your child will be tested on a variety of concepts from
+        their grade level and beyond. Depending on their assessment Rhombus will
+        begin with a progressive pathway that will help your child develop each
+        skill to expert levels, enabling them to pursue academic success,
+        helping them earn their best grades. Rhombus empowers students by
+        building their confidence as your child masters skills useful not only
+        in school but in real-world applications, reducing homework and test
+        anxiety, as well as providing valuable feedback to give the student a
+        sense of their growth.
+      </p>
+    </div>
+
+    <div class="contact-us-card" id="contactus">
+      <div class="single-contact">
+        <p class="contact-title">Email:</p>
+        <a
+          href="mailto:rhombus.nm@gmail.com"
+          style="cursor: pointer"
+          class="contact-desc"
+          >rhombus.nm@gmail.com</a
+        >
+      </div>
+    </div>
+
+    <div class="container faq-container" id="faq">
+      <p class="title">Frequently Asked Questions</p>
+
+      <div class="faq-single-question">
+        <p>What is Rhombus?</p>
+        <img src="./assets/add.png" />
+      </div>
+      <div class="faq-answer">
+        <p>
+          Rhombus empowers students by building their confidence as your child
+          masters skills useful not only in school but in real-world
+          applications, reducing homework and test anxiety, as well as providing
+          valuable feedback to give the student a sense of their growth.
+        </p>
+      </div>
+
+      <div class="faq-single-question">
+        <p>How does Rhombus work?</p>
+        <img src="./assets/add.png" />
+      </div>
+      <div class="faq-answer">
+        <p>
+          Rhombus can help your child develop and grow in their academic
+          pursuits by taking an assessment test at student orientation.
+        </p>
+      </div>
+
+      <div class="faq-single-question">
+        <p>How old are the kids enrolled in Rhombus ?</p>
+        <img src="./assets/add.png" />
+      </div>
+      <div class="faq-answer"><p>Pre-K to 12th grade</p></div>
+    </div>
+    <script defer src="./script.js"></script>
+    <script src="./carousel.js" defer></script>
+  </body>
+</html>
